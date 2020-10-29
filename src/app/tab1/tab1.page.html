@@ -1,17 +1,107 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-title>
+          <h2>
+            <ion-icon style="font-size: 30px; left: 0;
+            right: 0;
+            top: 50%;
+            transform: translateY(20%);" name="videocam-outline"></ion-icon>&nbsp;Explorar
+          </h2>
+        </ion-title>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid class="ion-no-padding ion-margin-bottom">
+    <ion-row>
+      <ion-col>
+        <!--         <iframe width="100%" height="200" src="https://www.youtube.com/embed/1trifshoIw0?muted=1&controls=1"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe> -->
+        <iframe width="100%" height="180" src="https://www.youtube.com/embed/QSX3mMVE9GI?muted=1&controls=1" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <ion-item lines="none">
+          <ion-avatar slot="start">
+            <img src="https://us.123rf.com/450wm/dolgachov/dolgachov1703/dolgachov170302013/74164259-concepto-de-deporte-fitness-estilo-de-vida-y-la-gente-feliz-hombre-y-mujer-deportiva-con-botellas-de.jpg?ver=6">
+          </ion-avatar>
+          <ion-label>
+            <h3 class="title-center" style="font-weight: bold;">A sudar se dijo!</h3>
+            <p class="title-center">@Usuario</p>
+            <ion-chip color="primary">
+              <ion-icon name="walk-outline"></ion-icon>
+              <ion-label style="font-size:12px">
+                Dancing
+              </ion-label>
+            </ion-chip>
+            <ion-chip color="danger">
+              <ion-icon name="eye-outline"></ion-icon>
+              <ion-label>120k</ion-label>
+            </ion-chip>
+          </ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid class="ion-no-padding ion-margin-bottom">
+    <ion-row>
+      <ion-col>
+        <iframe width="100%" height="180" src="https://www.youtube.com/embed/s03xvnpzxWs?muted=1&controls=1"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <ion-item lines="none">
+          <ion-avatar slot="start">
+            <img src="https://image.freepik.com/foto-gratis/culturista-joven-que-hace-levantamiento-pesas-gimnasio_3179-88.jpg">
+          </ion-avatar>
+          <ion-label>
+            <h3 class="title-center" style="font-weight: bold;">Rutina De Pesas En Casa</h3>
+            <p class="title-center">@Usuario</p>
+            <ion-chip color="primary">
+              <ion-icon name="barbell-outline"></ion-icon>
+              <ion-label style="font-size:12px">
+                Weigth lifting
+              </ion-label>
+            </ion-chip>
+            <ion-chip color="danger">
+              <ion-icon name="eye-outline"></ion-icon>
+              <ion-label>20k</ion-label>
+            </ion-chip>
+          </ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid class="ion-no-padding ion-margin-bottom">
+    <ion-row>
+      <ion-col>
+        <iframe width="100%" height="180" src="https://www.youtube.com/embed/VFPEjSxUyKg?muted=1&controls=1"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <ion-item lines="none">
+          <ion-avatar slot="start">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQrQZpv_492OaU92DlSq8NAKK3Sf11-Nd0tMg&usqp=CAU">
+          </ion-avatar>
+          <ion-label>
+            <h3 class="title-center" style="font-weight: bold;">Yoga para las mañanas</h3>
+            <p class="title-center">@Usuario</p>
+            <ion-chip color="primary">
+              <ion-icon name="accessibility-outline"></ion-icon>
+              <ion-label style="font-size:12px">
+                Yoga
+              </ion-label>
+            </ion-chip>
+            <ion-chip color="danger">
+              <ion-icon name="eye-outline"></ion-icon>
+              <ion-label>70k</ion-label>
+            </ion-chip>
+          </ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
 </ion-content>
