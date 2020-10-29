@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar
+    ><ion-buttons slot="start">
+      <ion-button (click)="closeModal()">
+        <ion-icon slot="icon-only" name="close-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Mi cuenta</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="assets/avatar.png" />
+      </ion-avatar>
+      <ion-label>
+        <h2>JOHN DOE</h2>
+        <h3>john.doe@gmail.com</h3>
+      </ion-label>
+    </ion-item>  
+    <ion-item>
+      <ion-icon slot="start"  name="person-circle-outline"></ion-icon>
+      <ion-label>Tus Datos</ion-label> 
+    </ion-item>
+    <ion-item>
+      <ion-icon slot="start"  name="construct-outline"></ion-icon>
+      <ion-label><h2>Configuración</h2></ion-label> 
+    </ion-item>
+    <ion-item>
+      <ion-icon slot="start" name="radio-outline"></ion-icon>
+      <ion-label><h2>Transmitir</h2></ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-icon slot="start"  name="log-in-outline"></ion-icon>
+      <ion-label><h2>Cerrar Sesión</h2></ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

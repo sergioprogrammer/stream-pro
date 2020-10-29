@@ -1,0 +1,25 @@
+<ion-title><h2>Filtrar Vídeos</h2></ion-title>
+<ion-list>
+  <ion-item>
+    <ion-label>Ordenar por: </ion-label>
+    <ion-select value="vistas">
+      <ion-select-option value="vistas">Vistas</ion-select-option>
+      <ion-select-option value="fecha">Fecha</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <ion-item>
+    <ion-label>Duración: </ion-label>
+    <ion-select value="todo">
+      <ion-select-option value="todo">Todo</ion-select-option>
+      <ion-select-option value="corto"> < 10 min</ion-select-option>
+      <ion-select-option value="medio"> < 20 min</ion-select-option>
+      <ion-select-option value="largo"> > 20 min</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <ion-item lines="none">
+    <ion-buttons slot="end">
+      <ion-button (click)="close()">Cancelar</ion-button>
+      <ion-button>Aplicar</ion-button>
+    </ion-buttons>
+  </ion-item>
+</ion-list>
